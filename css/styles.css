@@ -2,6 +2,7 @@
    display: flex;
    list-style-type: none;
    margin-left: auto;
+   padding-left: 0;
 }
 
 nav {
@@ -13,11 +14,12 @@ header {
 }
 
 .logo-icon {
-  
+  margin-left: 191px;
+
 }
 
 .container-header {
-    max-width: 1600px;
+    width: 1600px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 45px;
@@ -26,96 +28,13 @@ header {
     justify-content: center;
 }
 
-/* @media screen and (min-width: 1600px) {
-    .container,
-    .footer {
-        display: none;
-    }
-}
-
-
-@media screen and (max-width: 481px) {
-    .navigation {
-      display: none;  
-    }
-
-
-
-    .register-button {
-        margin-right: 30px;
-    }
-
-    .btn {
-        margin-bottom: 10px;
-        margin-left: auto;
-    }
-
-    .register-button {
-        margin-right: 0;
-    }
-
-    .container,
-    .footer {
-        display: none;
-    }
-}
-
-@media (min-width: 481px) and (max-width: 582px) {
-    .buttons {
-        display: none;
-    }
-}
-
-@media (min-width: 481px) and (max-width: 1599px) {
-    .navigation {
-        display: none;  
-      }
-  
-      .logo-icon {
-          display: none;
-      }
-  
-      .register-button {
-          margin-right: 30px;
-      }
-  
-      .btn {
-          margin-bottom: 10px;
-          margin-left: auto;
-      }
-  
-      .register-button {
-          margin-right: 0;
-      } 
-
-      .container,
-      .footer {
-          display: none;
-      }
-} */
-/* 
-@media screen and (min-width: 1300px) {
-    .buttons {
-        display: flex;
-    }
-
-  .logo-icon {
-      margin-left: 500px;
-  }
-
-  .pos {
-      display: flex;
-      justify-content: center;
-  }
-} */
-
-
 .pages {
     margin-right: 34px;
     color: #B8BECD;
     cursor: pointer;
     font-size: 16px;
     font-weight: 400;
+    line-height: 19px;
 }
 
 .current-page {
@@ -126,6 +45,7 @@ header {
 
 .buttons {
     display: flex;
+    margin-right: 255px;
 }
 
 .log-button {
@@ -161,7 +81,8 @@ h1 {
     margin-bottom: 74px;
 }
 
-h2 {
+
+.finder {
     font-family: Inter;
     font-size: 22px;
     font-weight: 600;
@@ -176,14 +97,16 @@ h2 {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-left: 0px;
-    position: relative;
 }
 
 
 .choice {
     margin-bottom: 35px;
     margin-right: 30px;
+    position: relative;
 }
+
+
 
 .input li::after {
     content: '';
@@ -193,12 +116,11 @@ h2 {
     height: 24px;
     background-repeat: no-repeat;
     position: absolute;
-  
 }
 
 .location-icon::after {
-    left: 36%;
-    top: 14%;
+    left: 75%;
+    top: 25%;
 }
 .activity-icon::after {
     left: 36%;
@@ -216,12 +138,12 @@ h2 {
 }
 
 
-.location,
+/* .location,
 .activity,
 .grade,
 .date {
     width: 220px;
-}
+} */
 
 
 .orange-button {
@@ -313,7 +235,6 @@ h2 {
 
 .countries {
     display: flex;
-    justify-content: center;
     list-style-type: none;
     padding-left: 0px;
     margin-top: 0px;
@@ -353,9 +274,12 @@ h2 {
     font-size: 18px;
 }
 
+.countries-list,
+.trending-stiries-list {
+  margin-left: 240px;
+}
+
 .countries-list-title {
-    display: flex;
-    justify-content: center;
     margin-bottom: 56px;
     margin-top: 292px;
 }
@@ -384,8 +308,8 @@ h2 {
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
-    top: 42%;
-    left: 84%;
+    top: 38%;
+    left: 82%;
 }
 
 .round4 {
@@ -435,13 +359,16 @@ h2 {
     font-weight: 700;
     font-size: 22px;
     line-height: 48px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .description {
     font-family: inter;
     font-weight: normal;
     font-size: 18px;
-    line-height: 48px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .label2 {
@@ -513,12 +440,8 @@ h2 {
     list-style-type: none;
     display: flex;
     padding-left: 0;
-    justify-content: center;
 }
 
-.trending-stories {
-    margin-left: 265px;
-}
 
 .story {
     margin-right: 25px;
@@ -654,6 +577,11 @@ h4 {
     list-style-type: none;
     display: flex;
     padding-left: 0;
+    align-items: baseline;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 32px;
+    padding-bottom: 33px;
 }
 
 .social-list-item {
